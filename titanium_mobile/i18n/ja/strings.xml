@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+  <string name="welcome_title">ようこそ!</string>
+  <string name="sign_in_with_twitter">Twitterへログイン</string>
+  <string name="follow_username">\@%\@をフォローします</string>
+  <string name="friends">Friends</string>
+  <string name="follow_me_now">Follow me now</string>
+  <string name="about_this_app">このアプリについて</string>
+  <string name="info">Info</string>
+  <string name="cancel">キャンセル</string>
+  <string name="follow">フォロー</string>
+  <string name="ok">OK</string>
+  <string name="reload">Reload</string>
+  <string name="loading">読み込み中...</string>
+  <string name="load_error">読み込みエラー</string>
+  <string name="failed_following">フォローに失敗しました</string>
+  <string name="server_connection_error">サーバの接続に失敗しました</string>
+  <string name="top">Top</string>
+  <string name="twitter_server_error">Twitterでエラーが発生しました</string>
+  <string name="cant_access_to_server">サーバに接続できませんでした</string>
+</resources>

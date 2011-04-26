@@ -1,0 +1,14 @@
+<!-- Generated from app.yaml. Do not edit. -->
+<web-app version='2.5' xmlns='http://java.sun.com/xml/ns/javaee'>
+  <filter>
+    <filter-name>org.jruby.rack.RackFilter</filter-name>
+    <filter-class>org.jruby.rack.RackFilter</filter-class>
+  </filter>
+  <filter-mapping>
+    <filter-name>org.jruby.rack.RackFilter</filter-name>
+    <url-pattern>/*</url-pattern>
+  </filter-mapping>
+  <listener>
+    <listener-class>com.google.appengine.jruby.BusyContextListener</listener-class>
+  </listener>
+</web-app>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+  <string name="welcome_title">Welvome!</string>
+  <string name="sign_in_with_twitter">Sign in with Twitter</string>
+  <string name="follow_username">Follow \@%\@</string>
+  <string name="friends">Friends</string>
+  <string name="follow_me_now">Follow me now</string>
+  <string name="about_this_app">About this App</string>
+  <string name="info">Info</string>
+  <string name="cancel">Cancel</string>
+  <string name="follow">Follow</string>
+  <string name="ok">OK</string>
+  <string name="reload">Reload</string>
+  <string name="loading">Loading...</string>
+  <string name="load_error">Load error</string>
+  <string name="failed_following">Failed following</string>
+  <string name="server_connection_error">Server connection error</string>
+  <string name="top">Top</string>
+  <string name="twitter_server_error">Twitter server error</string>
+  <string name="cant_access_to_server">Can\'t access to server</string>
+</resources>

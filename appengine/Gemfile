@@ -1,0 +1,15 @@
+# Critical default settings:
+disable_system_gems
+disable_rubygems
+bundle_path ".gems/bundler_gems"
+
+# List gems to bundle here:
+gem 'jruby-rack', '1.0.5'
+gem 'appengine-rack'
+gem 'appengine-apis'
+gem 'sinatra'
+gem 'json'
+
+gem 'jruby-openssl'
+gem 'oauth', '0.3.6'
+gem 'pr_geohash'

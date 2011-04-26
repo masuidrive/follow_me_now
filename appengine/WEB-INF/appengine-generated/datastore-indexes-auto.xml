@@ -1,0 +1,11 @@
+<!-- Indices written at Tue, 22 Feb 2011 11:32:12 UTC -->
+
+<datastore-indexes>
+
+    <!-- Used 2 times in query history -->
+    <datastore-index kind="User" ancestor="false" source="auto">
+        <property name="locations" direction="asc"/>
+        <property name="checkedin_at" direction="asc"/>
+    </datastore-index>
+
+</datastore-indexes>

@@ -1,0 +1,22 @@
+require 'appengine-rack'
+ENV["RACK_ENV"] = AppEngine::Rack.environment
+AppEngine::Rack.configure_app(
+    :application => 'your-app-id',
+    :precompilation_enabled => true,
+    :version => "dsbench")
+
+require "app"
+
+$env = "production"
+configure :development do
+  $env = "development"
+  class Sinatra::Reloader < ::Rack::Reloader
+    def safe_load(file, mtime, stderr = $stderr)
+      ::Sinatra::Application.reset!
+      super
+    end
+  end
+  use Sinatra::Reloader
+end
+
+run Sinatra::Application
